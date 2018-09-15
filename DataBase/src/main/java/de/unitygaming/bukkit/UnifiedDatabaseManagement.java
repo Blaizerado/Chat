@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import de.ilovejava.pools.PoolConnection;
 import de.unitygaming.bukkit.udm.db.mariadb.MariaConfig;
 import de.unitygaming.bukkit.udm.db.mongodb.MongoConfig;
 import de.unitygaming.bukkit.udm.db.redis.RedisConfig;
@@ -15,8 +16,6 @@ public class UnifiedDatabaseManagement extends JavaPlugin {
 
 	@Getter
 	private static volatile UnifiedDatabaseManagement instance = null;
-	@Getter
-	private static HashMap<String, Connection>MariaDBConnection = new HashMap<>();
 	@Override
 	public void onLoad() {
 		instance = this;
