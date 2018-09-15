@@ -1,0 +1,6 @@
+name: Connection
+version: 1.12
+description: SQL Connection
+author: UnityGaming Network
+website: https://unitygaming.de/
+main: de.unitygaming.bukkit.UnifiedDatabaseManagement
