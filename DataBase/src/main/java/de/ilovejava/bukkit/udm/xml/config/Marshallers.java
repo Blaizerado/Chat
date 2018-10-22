@@ -1,4 +1,4 @@
-package de.unitygaming.bukkit.udm.xml.config;
+package de.ilovejava.bukkit.udm.xml.config;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

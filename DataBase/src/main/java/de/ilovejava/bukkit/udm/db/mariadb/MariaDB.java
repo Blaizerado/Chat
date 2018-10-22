@@ -1,4 +1,4 @@
-package de.unitygaming.bukkit.udm.db.mariadb;
+package de.ilovejava.bukkit.udm.db.mariadb;
 
 import static java.lang.String.format;
 

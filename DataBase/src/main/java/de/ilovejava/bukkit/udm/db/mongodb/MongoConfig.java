@@ -1,4 +1,4 @@
-package de.unitygaming.bukkit.udm.db.mongodb;
+package de.ilovejava.bukkit.udm.db.mongodb;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -6,9 +6,10 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import com.google.common.base.Supplier;
-import de.unitygaming.bukkit.udm.xml.XmlDocument;
-import de.unitygaming.bukkit.udm.xml.config.ConfigFile;
-import de.unitygaming.bukkit.udm.xml.config.Configuration;
+
+import de.ilovejava.bukkit.udm.xml.XmlDocument;
+import de.ilovejava.bukkit.udm.xml.config.ConfigFile;
+import de.ilovejava.bukkit.udm.xml.config.Configuration;
 import lombok.Getter;
 
 @XmlDocument(folder = "Datenbankeinstellungen", file = "MongoDB")

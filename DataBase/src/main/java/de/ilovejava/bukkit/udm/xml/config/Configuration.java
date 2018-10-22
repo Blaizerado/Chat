@@ -1,4 +1,4 @@
-package de.unitygaming.bukkit.udm.xml.config;
+package de.ilovejava.bukkit.udm.xml.config;
 
 import static java.lang.String.format;
 
@@ -13,7 +13,7 @@ import javax.xml.bind.Marshaller;
 import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
 
-import de.unitygaming.bukkit.udm.xml.XmlDocument;
+import de.ilovejava.bukkit.udm.xml.XmlDocument;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;

@@ -1,15 +1,15 @@
-package de.unitygaming.bukkit;
+package de.ilovejava.bukkit;
 
 import java.sql.Connection;
 import java.util.HashMap;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import de.ilovejava.bukkit.udm.db.mariadb.MariaConfig;
+import de.ilovejava.bukkit.udm.db.mongodb.MongoConfig;
+import de.ilovejava.bukkit.udm.db.redis.RedisConfig;
+import de.ilovejava.bukkit.udm.xml.config.Configuration;
 import de.ilovejava.pools.PoolConnection;
-import de.unitygaming.bukkit.udm.db.mariadb.MariaConfig;
-import de.unitygaming.bukkit.udm.db.mongodb.MongoConfig;
-import de.unitygaming.bukkit.udm.db.redis.RedisConfig;
-import de.unitygaming.bukkit.udm.xml.config.Configuration;
 import lombok.Getter;
 
 public class UnifiedDatabaseManagement extends JavaPlugin {

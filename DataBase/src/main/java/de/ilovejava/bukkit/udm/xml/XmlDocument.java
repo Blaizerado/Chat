@@ -1,4 +1,4 @@
-package de.unitygaming.bukkit.udm.xml;
+package de.ilovejava.bukkit.udm.xml;
 
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
